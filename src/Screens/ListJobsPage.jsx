@@ -367,7 +367,7 @@ const App = () => {
           }}
         >
           <Table
-            rowSelection={rowSelection}
+            // rowSelection={rowSelection}
             columns={columns}
             dataSource={jobs}
             onChange={handleChange}
