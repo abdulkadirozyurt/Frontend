@@ -1,0 +1,86 @@
+.custom-search-bar input::placeholder {
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  /* font-family: 'SF Pro Text'; */
+  font-weight: 600;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+
+.custom-search-bar input:focus {
+  outline: none !important;
+}
+
+.custom-table .ant-table-tbody > tr:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.scrollbar-custom {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.scrollbar-content {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.scrollbar-scrollbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  border-radius: 10px;
+  background: var(--colorSplit, rgba(0, 0, 0, 0.06));
+}
+
+.scrollbar-slider {
+  border-radius: 29px;
+  background: var(--colorBorder, rgba(0, 0, 0, 0.15));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+}
+
+.table-wrapper {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.table-scrollbar-custom {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -17px; /* scrollbar genişliği */
+  overflow-y: scroll;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.table-scrollbar-content {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.table-scrollbar-scrollbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  border-radius: 10px;
+  background: var(--colorSplit, rgba(0, 0, 0, 0.06));
+}
+
+.table-scrollbar-slider {
+  border-radius: 29px;
+  background: var(--colorBorder, rgba(0, 0, 0, 0.15));
+  height: 80px;
+}
