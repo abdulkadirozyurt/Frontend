@@ -195,11 +195,11 @@ const App = () => {
     },
     {
       title: 'Work Type',
-      dataIndex: 'WorkType',
+      dataIndex: 'workType',
     },
     {
       title: 'Employment Type',
-      dataIndex: 'EmploymentType',
+      dataIndex: 'employmentType',
     },
   ];
 
